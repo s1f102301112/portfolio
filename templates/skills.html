@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Skills{% endblock %}
+{% block content %}
+<h1 class="mb-4">スキル</h1>
+<ul class="list-group">
+  {% for s in skills %}
+    <li class="list-group-item">{{ s.name }} - {{ s.level }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
+

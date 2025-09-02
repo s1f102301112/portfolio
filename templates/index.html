@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="text-center">
+    <h1>Welcome to My Portfolio</h1>
+    <p class="lead">就職・インターン応募用の自己紹介サイトです。</p>
+    <img src="{{ url_for('static', filename='img/sample.png') }}" alt="profile" class="img-fluid rounded-circle" width="200">
+  </div>
+{% endblock %}

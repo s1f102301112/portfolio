@@ -1,0 +1,17 @@
+[
+  {
+    "name": "サンプルプロジェクトA",
+    "description": "Flask と Bootstrap を使った自己紹介ページ。",
+    "url": "https://example.com"
+  },
+  {
+    "name": "サンプルプロジェクトB",
+    "description": "Pythonで作ったデータ可視化サンプル。",
+    "url": ""
+  },
+  {
+    "name": "サンプルプロジェクトC",
+    "description": "Djangoを用いたTodo管理アプリのサンプル。",
+    "url": "https://github.com/yourname/todo-sample"
+  }
+]
